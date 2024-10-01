@@ -76,16 +76,16 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-  //INIT_LAB2_EX0();
+  INIT_LAB2_EX0();
   //INIT_LAB2_EX1();
   //INIT_LAB2_EX2();
   //INIT_LAB2_EX4();
-  //INIT_LAB2_EX5();
+  INIT_LAB2_EX5();
   //INIT_LAB2_EX6();
   //INIT_LAB2_EX7();
-  INIT_LAB2_EX8();
+  //INIT_LAB2_EX8();
   //INIT_LAB2_EX9();
-  INIT_LAB2_EX10();
+  //INIT_LAB2_EX10();
 
   /* USER CODE END Init */
 
@@ -115,30 +115,30 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  //EXECUTE_LAB2_EX5();
+	  EXECUTE_LAB2_EX5();
 	  //TIMER EX6
 	  if( timer_flag[0]== 1){
 	  		setTimer(0,1000) ;
-	  		EXECUTE_LAB2_EX6();
+	  		//EXECUTE_LAB2_EX6();
 	  	}
 	  //TIMER EX7
 	  if( timer_flag[1]== 1){
 	  		setTimer(1,1000) ;
-	  		EXECUTE_LAB2_EX7();
+	  		//EXECUTE_LAB2_EX7();
 	  	}
 	  //TIMER EX8
 	  if( timer_flag[2]== 1){
 	  		setTimer(2,250) ;
-	  		EXECUTE_LAB2_EX8();
+	  		//EXECUTE_LAB2_EX8();
 	  	}
 	  //TIMER EX9
 	  if( timer_flag[3]== 1){
 	  		setTimer(3,10) ;
-	  		EXECUTE_LAB2_EX9();
+	  		//EXECUTE_LAB2_EX9();
 	  	}
 	  if( timer_flag[4]== 1){
 	  		setTimer(4,500) ;
-	  		EXECUTE_LAB2_EX10();
+	  		//EXECUTE_LAB2_EX10();
 	  	}
   }
   /* USER CODE END 3 */
@@ -227,10 +227,10 @@ static void MX_TIM2_Init(void)
 
 /* USER CODE BEGIN 4 */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
-	//EXECUTE_LAB2_EX0();
+	EXECUTE_LAB2_EX0();
 	//EXECUTE_LAB2_EX1();
 	//EXECUTE_LAB2_EX2();
-	//EXECUTE_LAB2_EX4();
+	EXECUTE_LAB2_EX4();
 	timer_run();
 }
 /* USER CODE END 4 */
