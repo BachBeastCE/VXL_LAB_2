@@ -81,10 +81,10 @@ int main(void)
   //INIT_LAB2_EX2();
   //INIT_LAB2_EX4();
   //INIT_LAB2_EX5();
-  //INIT_LAB2_EX6();
+  INIT_LAB2_EX6();
   //INIT_LAB2_EX7();
-  INIT_LAB2_EX8();
-  //INIT_LAB2_EX9();
+  //INIT_LAB2_EX8();
+  INIT_LAB2_EX9();
   //INIT_LAB2_EX10();
 
   /* USER CODE END Init */
@@ -124,17 +124,17 @@ int main(void)
 	  //TIMER EX7
 	  if( timer_flag[1]== 1){
 	  		setTimer(1,1000) ;
-	  		EXECUTE_LAB2_EX7();
+	  		//EXECUTE_LAB2_EX7();
 	  	}
 	  //TIMER EX8
 	  if( timer_flag[2]== 1){
 	  		setTimer(2,250) ;
-	  		EXECUTE_LAB2_EX8();
+	  		//EXECUTE_LAB2_EX8();
 	  	}
 	  //TIMER EX9
 	  if( timer_flag[3]== 1){
 	  		setTimer(3,10) ;
-	  		//EXECUTE_LAB2_EX9();
+	  		EXECUTE_LAB2_EX9();
 	  	}
 	  if( timer_flag[4]== 1){
 	  		setTimer(4,500) ;
