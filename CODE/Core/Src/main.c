@@ -136,6 +136,7 @@ int main(void)
 	  		setTimer(3,10) ;
 	  		EXECUTE_LAB2_EX9();
 	  	}
+	  //TIMER EX10
 	  if( timer_flag[4]== 1){
 	  		setTimer(4,500) ;
 	  		EXECUTE_LAB2_EX10();

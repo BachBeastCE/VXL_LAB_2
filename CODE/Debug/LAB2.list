@@ -1059,6 +1059,7 @@ int main(void)
 	  		EXECUTE_LAB2_EX9();
  80008a4:	f7ff ff9a 	bl	80007dc <EXECUTE_LAB2_EX9>
 	  	}
+	  //TIMER EX10
 	  if( timer_flag[4]== 1){
  80008a8:	4b06      	ldr	r3, [pc, #24]	@ (80008c4 <main+0xb0>)
  80008aa:	691b      	ldr	r3, [r3, #16]
